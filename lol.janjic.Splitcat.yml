@@ -31,7 +31,7 @@ modules:
         url: https://github.com/vogonwann/splitcat/releases/download/v0.1.11/splitcat-linux-x64.tar.gz
         strip-components: 0
         sha256: daa374ad465f6bfe5543e5e507220b6b05e3ffd1aae34d3a78b0ab4677e8fea1 
-        only-arches:
+        only-arches: 
           - x86_64
       - type: archive
         url: https://github.com/vogonwann/splitcat/releases/download/v0.1.11/splitcat-linux-arm64.tar.gz
