@@ -12,6 +12,8 @@
     - --socket=fallback-x11
     - --socket=wayland
     - --device=dri
+    - --filesystem=host
+    - --filesystem=home
   modules:
     - name: Splitcat
       buildsystem: simple
