@@ -37,5 +37,4 @@
           strip-components: 0
           sha256: 052afe52a221ba04f5e1f574d8d578fb2ef8cb2a53841aa9e3c383cf779b7d5a
           only-arches:
-            - aarch64
-  
+              - aarch64
