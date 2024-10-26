@@ -27,15 +27,15 @@
         - install -Dm644 $FLATPAK_ID.appdata.xml -t $FLATPAK_DEST/share/metainfo
       sources:
         - type: archive
-          url: https://github.com/vogonwann/splitcat/releases/download/v0.1.12/splitcat-linux-x64.tar.gz
+          url: https://github.com/vogonwann/splitcat/releases/download/v0.1.13/splitcat-linux-x64.tar.gz
           strip-components: 0
-          sha256: 431a5cf1e967470379d735d210aae6c408223765152c5631f44ec5faf81169b6
+          sha256: a666da40d7c0283b05fcf2a46f53f19c69ce9464281f5104e0874f7834ea2ee7
           only-arches:
             - x86_64
         - type: archive
-          url: https://github.com/vogonwann/splitcat/releases/download/v0.1.12/splitcat-linux-arm64.tar.gz
+          url: https://github.com/vogonwann/splitcat/releases/download/v0.1.13/splitcat-linux-arm64.tar.gz
           strip-components: 0
-          sha256: 052afe52a221ba04f5e1f574d8d578fb2ef8cb2a53841aa9e3c383cf779b7d5a
+          sha256: f91ba0264d695c99c1482432c445c3a53e655c486839f373402a67d8bbb39726
           only-arches:
             - aarch64
   
