@@ -13,6 +13,7 @@
     - --socket=wayland
     - --device=dri
     - --filesystem=host
+    - --share=network
   modules:
     - name: Splitcat
       buildsystem: simple
