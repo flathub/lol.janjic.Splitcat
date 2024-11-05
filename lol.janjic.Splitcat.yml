@@ -13,6 +13,7 @@
     - --socket=wayland
     - --device=dri
     - --filesystem=host
+    - --share=network
   modules:
     - name: Splitcat
       buildsystem: simple
@@ -27,14 +28,14 @@
         - install -Dm644 $FLATPAK_ID.appdata.xml -t $FLATPAK_DEST/share/metainfo
       sources:
         - type: archive
-          url: https://github.com/vogonwann/splitcat/releases/download/v0.1.15/splitcat-linux-x64.tar.gz
+          url: https://github.com/vogonwann/splitcat/releases/download/v0.1.16/splitcat-linux-x64.tar.gz
           strip-components: 0
-          sha256: b12506fda5438090d856dc127cd851e6934c8a9788a11c9fd0144b532f2fdec8
+          sha256: b21d90109140cb8b06133d13dd26d1a26cc20214a24a4a5b66937df0fb2801f3
           only-arches:
             - x86_64
         - type: archive
-          url: https://github.com/vogonwann/splitcat/releases/download/v0.1.15/splitcat-linux-arm64.tar.gz
+          url: https://github.com/vogonwann/splitcat/releases/download/v0.1.16/splitcat-linux-arm64.tar.gz
           strip-components: 0
-          sha256: 205e988e75fc9f883b504fc4559ce67530576136af1342a7ae47487087661040
+          sha256: dce29ed54cf5f3d150767006ecb94d15e9c2eb67c8cbf178bf615ef1f6f321ae
           only-arches:
             - aarch64
