@@ -36,6 +36,6 @@
         - type: archive
           url: https://github.com/vogonwann/splitcat/releases/download/v0.1.16/splitcat-linux-arm64.tar.gz
           strip-components: 0
-          sha256: 44127a4eb2f907b9b182627d60d36c58dd3056d5b833118e3a85df2f343b1b66
+          sha256: dce29ed54cf5f3d150767006ecb94d15e9c2eb67c8cbf178bf615ef1f6f321ae
           only-arches:
             - aarch64
